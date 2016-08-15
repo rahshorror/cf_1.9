@@ -1,0 +1,446 @@
+/**** index.html ****/
+.jumbotron {
+    background-image: url("../img/enemy-landscape.png");
+    background-size: cover;
+}
+
+.jumbotron p {
+      color: red;
+}
+
+.col-md-3 a {
+    color: red;
+}
+
+/**** contact.html ****/
+
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: lightgray;
+    padding-top: 50px;
+}
+
+.nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px 10px 20px;
+    z-index: 1;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    width: 100px;
+    text-align: center;
+}
+
+#navhead {
+    float: left;
+    width: 25%;
+}
+
+#navhead li {
+    width: 250px;
+    text-align: left;
+}
+
+.nav ul li a {
+    color: white;
+    transition: color 2s;
+    -webkit-transition: color 2s; /* Safari */
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: rebeccapurple;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#mycarousel {
+    padding-top: 20px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+/* https://coderwall.com/p/0jezca/vertical-spacing-for-bootstrap-columns */
+/* .row.row-grid [class*="col-"] + [class*="col-"] {
+    margin-top: 10px;
+}
+
+@media (min-width: 1200px) {
+    .row.row-grid [class*="col-lg-"] + [class*="col-lg-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 992px) {
+    .row.row-grid [class*="col-md-"] + [class*="col-md-"] {
+        margin-top: 0;
+    }
+}
+@media (min-width: 768px) {
+    .row.row-grid [class*="col-sm-"] + [class*="col-sm-"] {
+        margin-top: 0;
+    }
+}
+
+.row-grid + .row-grid {
+    margin-top: 10px;
+} */
+
+[class*="col-"] {
+    margin-bottom: 15px;
+}
+
+.work-meta {
+    float: clear;
+}
+
+#work {
+    padding-top: 75px;
+}
+
+.work-meta img {
+    width: 75%;
+    height: 75%;
+}
+
+.main {
+    background-color: lightgray;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.item {
+    height: 600px;
+}
+
+.carousel-caption {
+    float: left;
+    position: absolute;
+    padding-bottom: 450px;
+    z-index: 0;
+}
+
+.objects {
+    padding-top: 20px;
+}
+
+/* using bootstrap container div */ 
+.old_container {
+	/* background-color: lightgray; */
+    /* padding-top: 1%;
+    padding-bottom: 5%; */
+    width: 100%;
+} 
+
+.border {
+    width: 60%;
+    min-width: 400px;
+    max-width: 720px;
+    border: 3px solid black;
+    margin: 10% auto;
+    position: relative;
+    background-color: white;
+    /*
+    position: absolute; 
+    top: 20%;
+    left: 30%; 
+    */
+    padding: 20px;
+    overflow: hidden;
+}
+
+.left_col {
+    width: 60%;
+    height: 60%;
+    float: left;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
+.right_col {
+    width: 40%;
+    height: 60%;
+    float: left;
+    padding-top: 5%;
+}
+
+.address {
+    float: clear;
+}
+
+.glyphicon {
+	color: mediumpurple;
+	margin-right: 5px;
+}
+
+.emailaddr a:link {
+    color: darkslategrey;
+}
+
+.emailaddr a:hover {
+    color: black;
+}
+
+.emailaddr a:visited {
+    color: mediumpurple;
+}
+
+.social {
+    color: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+}
+
+.social-icons {
+    position: relative;
+    /* float: left; */
+    /* max-inline-size: 10%; */
+    height: 26px;
+	width: 26px;
+	margin-left: 1px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    -webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+    background-size: cover;
+}
+
+.fb {
+    background-image: url('../img/social/facebook-hover.png');
+}
+
+.fb:hover {
+    background-position: 0px -26px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+
+.inst {
+    background-image: url('../img/social/instagram-hover.png');
+}
+
+.inst:hover {
+    background-position: 0px -26px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+
+.tw {
+    background-image: url('../img/social/twitter-hover.png');
+}
+
+.tw:hover {
+    background-position: 0px -26px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+
+.elbow {
+    clear: both;
+    margin-top: 10px;
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("http://www.wwe.com/f/styles/wwe_large/public/video/thumb/2012/09/savage_elbow_USE.jpg");
+}
+
+/* about.html */
+
+/* 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fffeea;
+    color: #34495e;
+    padding-top: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+*/
+
+.header h1 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.image {
+    /* display: inline-block; */
+    float: left;
+}
+
+.column {
+    /* display: inline-block; */
+    float: left;
+    padding: 0 20px;
+    width: 30%;
+}
+
+.intro {
+    padding: 0px;
+}
+
+.main-text {
+    clear: both;
+    padding-top: 60px
+}
+
+.imgc {
+    width: 100%;
+}
+
+#skill-list {
+    margin-left: 50px;
+}
+
+.skills {
+    background-color: #5ad4c2;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* faq.html */
+
+.faq {
+	padding-top: 10px;
+}
+
+.panel-group {
+	padding-top: 20px;
+}
+
+#headingOne,
+#headingTwo,
+#headingThree,
+#headingFour,
+#headingFive {
+	background-color: gray;
+}
+
+.panel,
+.panel-body {
+	border-style: none;
+	border-width: 0;
+}
+
+.panel-default {
+	background-color: lightgray;
+	border-style: none;
+	border-width: 0;
+}
+
+/* Typography */
+#navhead {
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.1em;
+}
+
+.nav a {
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+}
+
+.title h1 {
+    font-family: 'Lato','Helvetica','sans-serif';
+    font-weight: 900;
+    color: mediumpurple;
+}
+
+.title h2 {
+    font-family: 'Lato', 'Helvetica', 'sans-serif';
+    font-weight: 700;
+}
+.subtitle_text {
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-style: italic;
+    font-stretch: ultra-expanded; 
+}
+
+.right_col p {
+    font-family: 'Lato','Helvetica','sans-serif';
+    font-weight: 4em;
+}
+
+.faq h1 {
+    font-family: 'Lato','Helvetica','sans-serif';
+    font-weight: 900;
+    text-align: center;
+    color: mediumpurple;
+}
+
+.panel-body {
+	font-family: 'Lato','Helvetica','sans-serif';
+}
+
+.panel-title a {
+	color: rebeccapurple;
+	font-family: 'Lato','Helvetica','sans-serif';
+	font-weight: 400;
+}
+
+.carousel-caption h3 {
+    font-family: 'Lato','Helvetica','sans-serif';
+    font-weight: 700;
+    color: mediumpurple;
+    font-style: bold;
+}
+
+.carousel-caption p {
+    font-family: 'Lato','Helvetica','sans-serif';
+    font-weight: 400;
+    color: black;
+}
+
+/* about.html Typography */
+
+.header h1, h2, h3
+.intro h1, h2, h3
+.skills h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+/*
+p, li {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+*/
+
+.intro p {
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    -webkit-margin-before: 0;
+}
+
+.skills h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* end */

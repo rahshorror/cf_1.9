@@ -1,0 +1,46 @@
+body {
+    padding-top: 50px;
+}
+
+.nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px 10px 20px;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.nav ul li a {
+    color: white;
+    transition: color 2s;
+    -webkit-transition: color 2s; /* Safari */
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: rebeccapurple;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* typography */
+
+.nav a {
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 400;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+}
