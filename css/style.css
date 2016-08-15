@@ -116,6 +116,11 @@ body {
     height: 75%;
 }
 
+#about {
+    /* padding-top: 4.6875em;*/
+    padding: 5% 15%;
+}
+
 .main {
     background-color: lightgray;
     padding-top: 1%;
@@ -130,7 +135,7 @@ body {
 .carousel-caption {
     float: left;
     position: absolute;
-    padding-bottom: 450px;
+    padding-bottom: 33em;
     z-index: 0;
 }
 
@@ -284,22 +289,6 @@ body {
     text-align: center;
 }
 
-.image {
-    /* display: inline-block; */
-    float: left;
-}
-
-.column {
-    /* display: inline-block; */
-    float: left;
-    padding: 0 20px;
-    width: 30%;
-}
-
-.intro {
-    padding: 0px;
-}
-
 .main-text {
     clear: both;
     padding-top: 60px
@@ -308,6 +297,25 @@ body {
 .imgc {
     width: 100%;
 }
+
+/* redundant 
+
+.image {
+    /* display: inline-block; */
+    /* float: left;
+}
+
+.column {
+    /* display: inline-block; */
+    /* float: left;
+    padding: 0 20px;
+    width: 30%;
+}
+
+.intro {
+    padding: 0px;
+}
+
 
 #skill-list {
     margin-left: 50px;
@@ -319,6 +327,8 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
+*/
 
 /* faq.html */
 
